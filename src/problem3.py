@@ -284,8 +284,10 @@ def problem3b(m, r):
            1/(0.1)  +  2/((1.1)**2)  +  3/((2.1)**3)  +  4/(3.1)**4)),
            which is approximately 12.020144157845959.
      """
-    value1 = 0
-    for k in range()
+    value1 = 1/r
+    for k in range(m):
+        value1 = value1 + (k / ((r + k) ** k))
+    return value1
     ###########################################################################
     # TODO: 4. Implement and test this function.
     #          Tests have been written for you (above).
