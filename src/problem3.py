@@ -168,7 +168,7 @@ def problem3a(r, s):
             value1 = value1 + k
     return value1
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # DONE: 3. Implement and test this function.
     #          Tests have been written for you (above).
     #
     ###########################################################################
@@ -284,6 +284,8 @@ def problem3b(m, r):
            1/(0.1)  +  2/((1.1)**2)  +  3/((2.1)**3)  +  4/(3.1)**4)),
            which is approximately 12.020144157845959.
      """
+    value1 = 0
+    for k in range()
     ###########################################################################
     # TODO: 4. Implement and test this function.
     #          Tests have been written for you (above).
